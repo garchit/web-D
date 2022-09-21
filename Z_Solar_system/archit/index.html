@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your weight on different planets</title>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body class="weightbackground">
+    <br>
+    <br>
+    <center><h1 class="weight-first">Your weight on differnet planets</h1>
+    <br>
+    <br>
+    <br>
+    <h2 class="weight-second">Your weight is different on other planets in the Solar System because the gravity is different.<br>To find out your weight on other planets without actually going there, you can use <br>our free tool to find out your weight on different planets. The units will remain same</h2>
+    </center>
+    <br>
+    <br>
+    <br>
+    <center><h3 class="weight-first">Enter your weight</h3>
+        <br>
+        <br>
+        <div class="row">
+       <input id="weight" type="number" pattern="[0-9]+"> &nbsp &nbsp<span class="weight-first">KG</span> &nbsp &nbsp<button  onclick="Calculate()";>Submit</button>
+    </div>
+    <br>
+    <br>
+    <div class="milkyway">
+
+
+		<div class="planet">
+			<h4>
+				MERCURY 
+			</h4>
+			<a href="http://www.nineplanets.org/mercury.html"><img src="./images/mercury.jpg"  alt="Mercury"></a>
+            <br><span class="ow" id="mw">Your weight is:</span>
+		</div>
+
+        
+		<div class="planet">
+			<h4>
+				VENUS 
+			</h4>
+			<a href="http://www.nineplanets.org/venus.html"><img src="./images/venus.jpg"  alt="Venus"></a>
+            <br><span class="ow" id="vw">Your weight is:</span>
+		</div>
+		<!-- <div class="planet">
+			<h4>
+				THE MOON 
+			</h4>
+			<a href="http://www.nineplanets.org/luna.html"><img src="./images/moon.jpg"  alt="The Moon"></a>
+            <br><span class="ow" id="tmw">Your weight is:</span>
+		</div> -->
+		<div class="planet">
+			<h4>
+				MARS 
+			</h4>
+			<a href="http://www.nineplanets.org/mars.html"><img src="./images/mars.jpg"  alt="Mars"></a>
+            <br><span class="ow" id="msw">Your weight is:</span>
+		</div>
+		<div class="planet">
+			<h4>
+				JUPITER 
+			</h4>
+			<a href="http://www.nineplanets.org/jupiter.html"><img src="./images/jupiter.jpg"  alt="Jupiter"></a>
+            <br><span class="ow" id="jw">Your weight is:</span>
+		</div>
+		<div class="planet">
+			<h4>
+				SATURN 
+			</h4>
+			<a href="http://www.nineplanets.org/saturn.html"><img src="./images/saturn.jpg"   alt="Saturn"></a>
+            <br><span class="ow" id="sw">Your weight is:</span>
+		</div>
+		<div class="planet">
+			<h4>
+				URANUS 
+			</h4>
+			<a href="http://www.nineplanets.org/uranus.html"><img src="./images/uranus.jpg"  alt="Uranus"></a>
+            <br><span class="ow" id="uw">Your weight is:</span>    
+		</div>
+		<div class="planet">
+			<h4>
+				NEPTUNE 
+			</h4>
+			<a href="http://www.nineplanets.org/neptune.html"><img src="./images/naptune.jpg"  alt="Neptune"></a>
+            <br><span class="ow" id="nw">Your weight is:</span>
+		</div>
+		
+		
+	</div>
+    
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>

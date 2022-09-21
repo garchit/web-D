@@ -13,7 +13,7 @@ function sayHello(name){
     console.log("Heyy" , name);
 }
 // thats not a good practice .. :(
-// sayHello("IITIAN");
+sayHello("IITIAN");
 
 
 function sayHello(name){
